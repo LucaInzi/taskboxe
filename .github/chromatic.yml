@@ -4,9 +4,9 @@ name: 'Chromatic Deployment'
 # Event for the workflow
 on:
   push:
-    branches: [main]
+    branches: [main, change-task-background]
   pull_request:
-    branches: [main]
+    branches: [main, change-task-background]
 
 # List of jobs
 jobs:
