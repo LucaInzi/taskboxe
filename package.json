@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.11.16",
+    "@mui/styled-engine-sc": "^5.11.11",
     "@reduxjs/toolkit": "^1.9.3",
     "@testing-library/dom": "^9.2.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -13,6 +19,7 @@
     "react-redux": "^8.0.5",
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
+    "styled-components": "^5.3.9",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -68,6 +75,8 @@
     "chromatic": "^6.17.3",
     "prop-types": "^15.8.1",
     "react-test-renderer": "^18.2.0",
+    "storybook-addon-designs": "^6.3.1",
+    "storybook-zeplin": "^2.0.0",
     "webpack": "^5.76.3"
   },
   "readme": "ERROR: No README data found!",
