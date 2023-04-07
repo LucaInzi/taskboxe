@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import store from './store/redux';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './theme';
-import InboxScreen from './components/InboxScreen';
+import InboxScreen from './components/Task/InboxScreen';
 import './index.css';
 
 function App() {
