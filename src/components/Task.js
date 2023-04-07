@@ -1,4 +1,3 @@
-
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -20,6 +19,7 @@ export default function Task({ task: { id, title, state }, onArchiveTask, onPinT
             value={title}
             readOnly={true}
             placeholder="Input title"
+            aria-label="Task Title" // Ajout de l'attribut aria-label
             style={{ background: 'red' }}
           />
         </div>
