@@ -3,7 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.11.16",
+    "@mui/styled-engine-sc": "^5.11.11",
     "@reduxjs/toolkit": "^1.9.3",
+    "@svgr/plugin-jsx": "^7.0.0",
+    "@svgr/plugin-prettier": "^7.0.0",
     "@testing-library/dom": "^9.2.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -13,16 +21,18 @@
     "react-redux": "^8.0.5",
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
+    "styled-components": "^5.3.9",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "svgr": "svgr --icon --title-prop --replace-attr-values -d src assets",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --project-token=da56d7e91a34"
+    "chromatic": "chromatic --project-token=da56d7e91a34 --exit-zero-on-changes"
   },
   "eslintConfig": {
     "extends": [
@@ -64,10 +74,13 @@
     "@storybook/preset-create-react-app": "^4.1.2",
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
+    "@svgr/core": "^7.0.0",
     "babel-plugin-named-exports-order": "^0.0.2",
-    "chromatic": "^6.17.2",
+    "chromatic": "^6.17.3",
     "prop-types": "^15.8.1",
     "react-test-renderer": "^18.2.0",
+    "storybook-addon-designs": "^6.3.1",
+    "storybook-zeplin": "^2.0.0",
     "webpack": "^5.76.3"
   },
   "readme": "ERROR: No README data found!",
